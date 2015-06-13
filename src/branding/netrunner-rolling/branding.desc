@@ -1,0 +1,22 @@
+---
+componentName:  netrunner-Rolling
+
+strings:
+    productName:         Netrunner Rolling Edition
+    shortProductName:    Netrunner Rolling 
+    version:             2015.06
+    shortVersion:        2015.06
+    versionedName:       Netrunner Rolling Edition 
+    shortVersionedName:  Netrunner Rolling 2015.06
+    bootloaderEntryName: Netrunner Rolling
+
+images:
+    productLogo:         "netrunner-rolling-logo.png"
+    productIcon:         "netrunner-rolling-icon.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#8497A7"
