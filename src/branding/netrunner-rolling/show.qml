@@ -26,7 +26,7 @@ Presentation
 
     Timer {
         interval: 20000
-        running: true
+        running: false
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
@@ -40,15 +40,6 @@ Presentation
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background1.horizontalCenter
-            anchors.top: background1.bottom
-            text: qsTr("
-            ")
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -59,15 +50,6 @@ Presentation
             width: 800; height: 354
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-        }
-        Text {
-            anchors.horizontalCenter: background2.horizontalCenter
-            anchors.top: background2.bottom
-            text: qsTr("
-            ")
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
         }
     }
 
@@ -80,15 +62,6 @@ Presentation
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background3.horizontalCenter
-            anchors.top: background3.bottom
-            text: qsTr("
-            ")
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
     }
 
     Slide {
@@ -99,15 +72,6 @@ Presentation
             width: 800; height: 354
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-        }
-        Text {
-            anchors.horizontalCenter: background4.horizontalCenter
-            anchors.top: background4.bottom
-            text: qsTr("
-            ")
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
         }
     }
 
@@ -120,15 +84,6 @@ Presentation
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background5.horizontalCenter
-            anchors.top: background5.bottom
-            text: qsTr("
-            ")
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
     }
     
     Slide {
@@ -139,15 +94,6 @@ Presentation
             width: 800; height: 354
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-        }
-        Text {
-            anchors.horizontalCenter: background6.horizontalCenter
-            anchors.top: background6.bottom
-            text: qsTr("
-            ")
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
         }
     }
     
@@ -160,16 +106,6 @@ Presentation
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background7.horizontalCenter
-            anchors.top:
- background7.bottom
-            text: qsTr("
-            ")
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
     }
     
     Slide {
@@ -180,15 +116,6 @@ Presentation
             width: 800; height: 354
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-        }
-        Text {
-            anchors.horizontalCenter: background8.horizontalCenter
-            anchors.top: background8.bottom
-            text: qsTr("
-            ")
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
         }
     }
 }
