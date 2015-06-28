@@ -39,7 +39,7 @@ Presentation
             width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
             horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVCenter
+            verticalAlignment : Image.AlignVTop
             anchors.centerIn: parent
         }
     }
@@ -52,7 +52,7 @@ Presentation
             width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
             horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVCenter
+            verticalAlignment : Image.AlignVTop
             anchors.centerIn: parent
         }
     }
@@ -65,7 +65,7 @@ Presentation
             width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
             horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVCenter
+            verticalAlignment : Image.AlignVTop
             anchors.centerIn: parent
         }
     }
@@ -78,7 +78,7 @@ Presentation
             width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
             horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVCenter
+            verticalAlignment : Image.AlignVTop
             anchors.centerIn: parent
         }
     }
@@ -91,7 +91,7 @@ Presentation
             width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
             horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVCenter
+            verticalAlignment : Image.AlignVTop
             anchors.centerIn: parent
         }
     }
@@ -104,7 +104,7 @@ Presentation
             width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
             horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVCenter
+            verticalAlignment : Image.AlignVTop
             anchors.centerIn: parent
         }
     }
@@ -117,7 +117,7 @@ Presentation
             width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
             horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVCenter
+            verticalAlignment : Image.AlignVTop
             anchors.centerIn: parent
         }
     }
@@ -130,7 +130,7 @@ Presentation
             width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
             horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVCenter
+            verticalAlignment : Image.AlignVTop
             anchors.centerIn: parent
         }
     }
