@@ -25,8 +25,8 @@ Presentation
     id: presentation
 
     Timer {
-        interval: 20000
-        running: true
+        interval: 5000
+        running: false
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
@@ -34,12 +34,10 @@ Presentation
     Slide {
 
         Image {
-            id: background1
-            source: "slide1.png"
+            id: slide1
+            source: "1.png"
             width: 800; height: 480
-            fillMode: Image.PreserveAspectCrop
-            horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVTop
+            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
@@ -47,12 +45,10 @@ Presentation
     Slide {
 
         Image {
-            id: background2
-            source: "slide2.png"
+            id: slide2
+            source: "2.png"
             width: 800; height: 480
-            fillMode: Image.PreserveAspectCrop
-            horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVTop
+            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
@@ -60,12 +56,10 @@ Presentation
     Slide {
 
         Image {
-            id: background3
-            source: "slide3.png"
+            id: slide3
+            source: "3.png"
             width: 800; height: 480
-            fillMode: Image.PreserveAspectCrop
-            horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVTop
+            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
@@ -73,12 +67,10 @@ Presentation
     Slide {
 
         Image {
-            id: background4
-            source: "slide4.png"
+            id: slide4
+            source: "4.png"
             width: 800; height: 480
-            fillMode: Image.PreserveAspectCrop
-            horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVTop
+            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
@@ -86,12 +78,10 @@ Presentation
     Slide {
 
         Image {
-            id: background5
-            source: "slide5.png"
+            id: slide5
+            source: "5.png"
             width: 800; height: 480
-            fillMode: Image.PreserveAspectCrop
-            horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVTop
+            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
@@ -99,12 +89,10 @@ Presentation
     Slide {
 
         Image {
-            id: background6
-            source: "slide6.png"
+            id: slide6
+            source: "6.png"
             width: 800; height: 480
-            fillMode: Image.PreserveAspectCrop
-            horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVTop
+            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
@@ -112,12 +100,10 @@ Presentation
     Slide {
 
         Image {
-            id: background7
-            source: "slide7.png"
+            id: slide7
+            source: "7.png"
             width: 800; height: 480
-            fillMode: Image.PreserveAspectCrop
-            horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVTop
+            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
@@ -125,12 +111,10 @@ Presentation
     Slide {
 
         Image {
-            id: background8
-            source: "slide8.png"
+            id: slide8
+            source: "8.png"
             width: 800; height: 480
-            fillMode: Image.PreserveAspectCrop
-            horizontalAlignment : Image.AlignHLeft
-            verticalAlignment : Image.AlignVTop
+            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
     }
