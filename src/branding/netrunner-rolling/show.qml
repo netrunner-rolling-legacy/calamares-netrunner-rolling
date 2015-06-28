@@ -36,10 +36,9 @@ Presentation
         Image {
             id: background1
             source: "slide1.png"
-            width: 800; height: 480
+            width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
-            clip: true
-            horizontalAlignment : Image.AlignHCenter
+            horizontalAlignment : Image.AlignHLeft
             verticalAlignment : Image.AlignVCenter
             anchors.centerIn: parent
         }
@@ -50,10 +49,9 @@ Presentation
         Image {
             id: background2
             source: "slide2.png"
-            width: 800; height: 480
+            width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
-            clip: true
-            horizontalAlignment : Image.AlignHCenter
+            horizontalAlignment : Image.AlignHLeft
             verticalAlignment : Image.AlignVCenter
             anchors.centerIn: parent
         }
@@ -64,10 +62,9 @@ Presentation
         Image {
             id: background3
             source: "slide3.png"
-            width: 800; height: 480
+            width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
-            clip: true
-            horizontalAlignment : Image.AlignHCenter
+            horizontalAlignment : Image.AlignHLeft
             verticalAlignment : Image.AlignVCenter
             anchors.centerIn: parent
         }
@@ -78,10 +75,9 @@ Presentation
         Image {
             id: background4
             source: "slide4.png"
-            width: 800; height: 480
+            width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
-            clip: true
-            horizontalAlignment : Image.AlignHCenter
+            horizontalAlignment : Image.AlignHLeft
             verticalAlignment : Image.AlignVCenter
             anchors.centerIn: parent
         }
@@ -92,10 +88,9 @@ Presentation
         Image {
             id: background5
             source: "slide5.png"
-            width: 800; height: 480
+            width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
-            clip: true
-            horizontalAlignment : Image.AlignHCenter
+            horizontalAlignment : Image.AlignHLeft
             verticalAlignment : Image.AlignVCenter
             anchors.centerIn: parent
         }
@@ -106,10 +101,9 @@ Presentation
         Image {
             id: background6
             source: "slide6.png"
-            width: 800; height: 480
+            width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
-            clip: true
-            horizontalAlignment : Image.AlignHCenter
+            horizontalAlignment : Image.AlignHLeft
             verticalAlignment : Image.AlignVCenter
             anchors.centerIn: parent
         }
@@ -120,10 +114,9 @@ Presentation
         Image {
             id: background7
             source: "slide7.png"
-            width: 800; height: 480
+            width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
-            clip: true
-            horizontalAlignment : Image.AlignHCenter
+            horizontalAlignment : Image.AlignHLeft
             verticalAlignment : Image.AlignVCenter
             anchors.centerIn: parent
         }
@@ -134,10 +127,9 @@ Presentation
         Image {
             id: background8
             source: "slide8.png"
-            width: 800; height: 480
+            width: 800; height: 450
             fillMode: Image.PreserveAspectCrop
-            clip: true
-            horizontalAlignment : Image.AlignHCenter
+            horizontalAlignment : Image.AlignHLeft
             verticalAlignment : Image.AlignVCenter
             anchors.centerIn: parent
         }
