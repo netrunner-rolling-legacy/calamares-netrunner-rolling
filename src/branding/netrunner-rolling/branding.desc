@@ -2,12 +2,12 @@
 componentName:  netrunner-rolling
 
 strings:
-    productName:         Netrunner Rolling Edition
-    shortProductName:    Netrunner Rolling 
-    version:             2015.06
-    shortVersion:        2015.06
-    versionedName:       Netrunner Rolling Edition 2015.06
-    shortVersionedName:  Netrunner Rolling 2015.06
+    productName:         Netrunner
+    shortProductName:    Netrunner
+    version:             Rolling
+    shortVersion:        Rolling
+    versionedName:       Netrunner Rolling Edition
+    shortVersionedName:  Netrunner Rolling
     bootloaderEntryName: Netrunner Rolling
 
 images:
