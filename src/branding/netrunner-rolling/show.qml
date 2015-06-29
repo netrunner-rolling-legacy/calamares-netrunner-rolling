@@ -36,7 +36,7 @@ Presentation
         Image {
             id: slide1
             source: "1.png"
-            width: 800; height: 460
+            width: 800; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -47,7 +47,7 @@ Presentation
         Image {
             id: slide2
             source: "2.png"
-            width: 800; height: 460
+            width: 800; height: 480
             fillMode: Image.PreserveAspectFit            
             anchors.centerIn: parent
         }
@@ -58,7 +58,7 @@ Presentation
         Image {
             id: slide3
             source: "3.png"
-            width: 800; height: 460
+            width: 800; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -69,7 +69,7 @@ Presentation
         Image {
             id: slide4
             source: "4.png"
-            width: 800; height: 460
+            width: 800; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -80,7 +80,7 @@ Presentation
         Image {
             id: slide5
             source: "5.png"
-            width: 800; height: 460
+            width: 800; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -91,7 +91,7 @@ Presentation
         Image {
             id: slide6
             source: "6.png"
-            width: 800; height: 460
+            width: 800; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -102,7 +102,7 @@ Presentation
         Image {
             id: slide7
             source: "7.png"
-            width: 800; height: 460
+            width: 800; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -113,7 +113,7 @@ Presentation
         Image {
             id: slide8
             source: "8.png"
-            width: 800; height: 460
+            width: 800; height: 480
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
