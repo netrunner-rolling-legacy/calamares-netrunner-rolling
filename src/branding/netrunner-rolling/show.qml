@@ -35,7 +35,7 @@ Presentation
         anchors.fill: parent
         Image {
             id: slide1
-            source: "1.svg"
+            source: "1.png"
             anchors.fill: parent
         }
     }
@@ -44,7 +44,7 @@ Presentation
         anchors.fill: parent
         Image {
             id: slide2
-            source: "2.svg"
+            source: "2.png"
             anchors.fill: parent
         }
     }
@@ -53,7 +53,7 @@ Presentation
         anchors.fill: parent
         Image {
             id: slide3
-            source: "3.svg"
+            source: "3.png"
             anchors.fill: parent
         }
     }
@@ -62,7 +62,7 @@ Presentation
         anchors.fill: parent
         Image {
             id: slide4
-            source: "4.svg"
+            source: "4.png"
             anchors.fill: parent
         }
     }
@@ -71,7 +71,7 @@ Presentation
         anchors.fill: parent
         Image {
             id: slide5
-            source: "5.svg"
+            source: "5.png"
             anchors.fill: parent
         }
     }
@@ -80,7 +80,7 @@ Presentation
         anchors.fill: parent
         Image {
             id: slide6
-            source: "6.svg"
+            source: "6.png"
             anchors.fill: parent
         }
     }
@@ -89,7 +89,7 @@ Presentation
         anchors.fill: parent
         Image {
             id: slide7
-            source: "7.svg"
+            source: "7.png"
             anchors.fill: parent
         }
     }
@@ -98,7 +98,7 @@ Presentation
         anchors.fill: parent
         Image {
             id: slide8
-            source: "8.svg"
+            source: "8.png"
             anchors.fill: parent
         }
     }
