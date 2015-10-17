@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=System;
+Comment[en_US]=Install the operating system to disk
+Comment=Install the operating system to disk
+Exec=sudo /usr/bin/calamares
+GenericName[en_US]=Live Installer
+GenericName=Live Installer
+Icon=calamares
+MimeType=
+Name[en_US]=Install Netrunner Rolling
+Name=Install Netrunner Rolling
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
