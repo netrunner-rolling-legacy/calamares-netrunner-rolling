@@ -17,10 +17,9 @@
 #   You should have received a copy of the GNU General Public License
 #   along with Calamares. If not, see <http://www.gnu.org/licenses/>.
 
-import os
-
 import libcalamares
 
+import os
 import shutil
 
 def run():
@@ -43,6 +42,10 @@ def run():
         os.system("echo -e \"STEAM_RUNTIME=0\nSTEAM_FRAME_FORCE_CLOSE=1\nLD_LIBRARY_PATH=\/usr\/lib\"" \
                 " >> {!s}/etc/environment".format(install_path))
 
+    # Update grub.cfg
+    if os.path.exists("{!s}/usr/bin/update-grub".format(install_path)):
+        libcalamares.utils.chroot_call(["update-grub"])
+
     # Remove calamares
     if os.path.exists("{!s}/usr/bin/calamares".format(install_path)):
         libcalamares.utils.chroot_call(['pacman', '-R', '--noconfirm', 'calamares'])
@@ -56,12 +59,12 @@ def run():
         os.system("rm -rf {!s}/etc/pacman.d/gnupg".format(install_path))
     os.system("cp -a /etc/pacman.d/gnupg {!s}/etc/pacman.d/".format(install_path))
     libcalamares.utils.chroot_call(['pacman-key', '--populate', 'archlinux', 'manjaro'])
-     
+    
     # Workaround for pacman-key bug FS#45351 https://bugs.archlinux.org/task/45351
     # We have to kill gpg-agent because if it stays around we can't reliably unmount
     # the target partition.
     libcalamares.utils.chroot_call(['killall', '-9', 'gpg-agent'])
- 
+
     # Set /etc/keyboard.conf (keyboardctl is depreciated)
     if os.path.exists("{!s}/etc/keyboard.conf".format(install_path)):
         keyboard_layout = libcalamares.globalstorage.value("keyboardLayout")
